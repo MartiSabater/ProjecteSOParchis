@@ -1,5 +1,0 @@
--- Comando compilar servidor en shiva
-gcc -o servidor ServidorJuego.c -lpthread `mysql_config --cflags --libs`
-
--- Comando ejecutar servidor en shiva
-./servidor
